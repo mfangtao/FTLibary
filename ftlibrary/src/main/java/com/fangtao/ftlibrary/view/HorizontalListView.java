@@ -20,6 +20,7 @@ import java.util.Queue;
  * 作者：涛锅锅
  * 时间：10:35
  * 邮箱：mfangtao@qq.com
+ *
  */
 public class HorizontalListView extends AdapterView<ListAdapter> {
     public boolean mAlwaysOverrideTouch = true;
