@@ -1,9 +1,9 @@
 package com.fangtao.ftlibrary.activity;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -12,7 +12,7 @@ import android.widget.Toast;
  * 时间：13:16
  * 邮箱：mfangtao@qq.com
  */
-public class FBaseActivity extends Activity {
+public class FBaseActivity extends AppCompatActivity {
     private ProgressDialog pDialog;
 
     /**
